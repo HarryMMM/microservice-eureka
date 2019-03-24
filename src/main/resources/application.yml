@@ -5,8 +5,6 @@ spring:
 #    active: ${PROFILES.ACTIVE:peer1}
 eureka:
   client:
-      service-url:
-        defaultZone: ${EUREKA_URL:http://localhost:8761/eureka/}
       fetch-registry: false
       register-with-eureka: false
 #---
